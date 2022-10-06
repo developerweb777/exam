@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact me</title>
+    <!--====== MAIN CSS=========-->
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <!--=========NORMALIZE CSS ======-->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!--========FONTS CSS============-->
+    <!--===public sanc======-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!--=======iborra======-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header_nav">
+          <img src="./images/logo.svg" alt="loho" />
+          <ul class="header_nav_ul">
+            <li class="header_nav_ul_li">
+              <a class="header_nav_ul_li_link_home" href="./index.html">HOME</a>
+            </li>
+            <li class="header_nav_ul_li">
+              <a
+                target="_blank"
+                class="header_nav_ul_li_link"
+                href="./portfolio.html"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li class="header_nav_ul_li">
+              <a
+                target="_blank"
+                class="header_nav_ul_li_link"
+                href="./contact.html"
+                >CONTACT ME</a
+              >
+            </li>
+          </ul>
+          <div class="hamburger">
+            <div class="hamburger_list"></div>
+            <div class="hamburger_list"></div>
+            <div class="hamburger_list"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="get">
+          <hr class="get_hr" />
+          <div class="get_text_wrapper">
+            <h2 class="get_h2">Get in Touch</h2>
+            <div class="get_text">
+              <p class="get_text_p">
+                I’d love to hear about what you’re working on and how I could
+                help. I’m currently looking for a new role and am open to a wide
+                range of opportunities. My preference would be to find a
+                position in a company in London. But I’m also happy to hear
+                about opportunites that don’t fit that description. I’m a
+                hard-working and positive person who will always approach each
+                task with a sense of purpose and attention to detail. Please do
+                feel free to check out my online profiles below and get in touch
+                using the form.
+              </p>
+            </div>
+          </div>
+          <div class="get_wrapper_icons">
+            <img
+              class="get_wrapper_icon_imgs"
+              src="./images/mushuk.svg"
+              alt=""
+            />
+            <img class="get_wrapper_icon_imgs" src="./images/twtr.svg" alt="" />
+            <img
+              class="get_wrapper_icon_imgs"
+              src="./images/linkedin.svg"
+              alt=""
+            />
+          </div>
+          <hr class="get_hr_two" />
+        </section>
+        <section class="me">
+          <h2 class="me_h2">Contact Me</h2>
+          <div class="labels">
+            <form class="form">
+              <label for="name">Name</label><br />
+              <input
+                required
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Jane Appleseed"
+              /><br />
+              <label for="addres">email addres</label><br />
+              <input
+                required
+                type="text"
+                id="addres"
+                name="addres"
+                placeholder="email@example.com"
+              />
+              <div class="text_area">
+                <label for="massage"
+                  >Message <br />
+                  <textarea
+                    class="textarea"
+                    name="massage"
+                    id="massage"
+                    cols="30"
+                    rows="10"
+                    placeholder=" How can I help?"
+                  ></textarea>
+                </label>
+              </div>
+              <a class="me_link" href="#">SEND MESSAGE</a>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_wrapper">
+          <img class="footer_wrapper_img" src="./images/logo.svg" alt="logo" />
+          <ul class="footer_ul">
+            <li class="footer_ul_li">
+              <a class="footer_ul_li_link" href="#">HOME</a>
+            </li>
+            <li class="footer_ul_li">
+              <a class="footer_ul_li_link" href="#">PORTFOLIO</a>
+            </li>
+            <li class="footer_ul_li">
+              <a class="footer_ul_li_link" href="#">CONTACT ME</a>
+            </li>
+          </ul>
+          <div class="wrapper_icon">
+            <a target="_blank" href="https://github.com/">
+              <img
+                class="wrapper_icon_img"
+                src="./images/mushuk.svg"
+                alt="git hub"
+              />
+            </a>
+            <a target="_blank" href="https://twitter.com/"
+              ><img class="wrapper_icon_img" src="./images/twtr.svg" alt="twtr"
+            /></a>
+            <a target="_blank" href="https://ru.linkedin.com/"
+              ><img
+                class="wrapper_icon_img"
+                src="./images/linkedin.svg"
+                alt="linkedin"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

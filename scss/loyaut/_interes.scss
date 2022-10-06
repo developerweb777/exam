@@ -1,0 +1,67 @@
+.interes {
+  display: flex;
+  align-items: center;
+  &_h3 {
+    font-family: "Ibarra Real Nova";
+    font-weight: 700;
+    font-size: 40px;
+    width: 350px;
+    height: 84px;
+    color: #33323d;
+  }
+  &_hr {
+    background: #33323d;
+    opacity: 0.15;
+    height: 1px;
+    width: 534px;
+  }
+  &_link {
+    padding: 15px;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #33323d;
+    border: 1px solid #33323d;
+    &:hover {
+      background-color: #33323d;
+      color: azure;
+    }
+    &:active {
+      border: 1px solid #33323d;
+      background-color: antiquewhite;
+      color: black;
+    }
+  }
+}
+@media only screen and (min-width: 767px) and(max-width:1023px) {
+  .interes {
+    align-items: center;
+    &_h3 {
+      margin-top: 100px;
+    }
+    &_hr {
+      width: 113px;
+      margin-top: 70px;
+    }
+    &_link {
+      margin-top: 60px;
+    }
+  }
+}
+@media only screen and(max-width:767px) {
+  .interes {
+    flex-direction: column;
+    &_h3 {
+      margin-top: 115px;
+      text-align: center;
+    }
+    &_hr {
+      position: absolute;
+      width: 340px;
+    }
+  }
+}

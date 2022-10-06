@@ -1,0 +1,49 @@
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &_ul {
+    display: flex;
+    &_li {
+      margin-left: 42px;
+      font-family: "Public Sans";
+      font-weight: 400;
+      font-size: 12px;
+
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      &_link:hover {
+        color: #5fb4a2;
+      }
+      &_link_home {
+        color: #5fb4a2;
+      }
+    }
+  }
+}
+.hamburger {
+  display: none;
+  width: 20px;
+  height: 10px;
+  &_list {
+    width: 22px;
+    height: 1px;
+    margin-bottom: 5px;
+    background-color: #33323d;
+  }
+}
+
+/*=================responsive===============*/
+@media only screen and(min-width:1024px) {
+}
+@media only screen and (min-width: 767px) and(max-width:1023px) {
+}
+
+@media only screen and(max-width:767px) {
+  .hamburger {
+    display: block;
+  }
+  .header_nav_ul {
+    display: none;
+  }
+}

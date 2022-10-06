@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--====== MAIN CSS=========-->
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <!--=========NORMALIZE CSS ======-->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!--========FONTS CSS============-->
+    <!--===public sanc======-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!--=======iborra======-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header_nav">
+          <img src="./images/logo.svg" alt="loho" />
+          <ul class="header_nav_ul">
+            <li class="header_nav_ul_li">
+              <a
+                target="_blank"
+                class="header_nav_ul_li_link_home"
+                href="./index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="header_nav_ul_li">
+              <a class="header_nav_ul_li_link" href="./portfolio.html"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li class="header_nav_ul_li">
+              <a
+                target="_blank"
+                class="header_nav_ul_li_link"
+                href="./contact.html"
+                >CONTACT ME</a
+              >
+            </li>
+          </ul>
+          <div class="hamburger">
+            <div class="hamburger_list"></div>
+            <div class="hamburger_list"></div>
+            <div class="hamburger_list"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="hero">
+          <div class="hero_text">
+            <h2 class="hero_text_h2">
+              Hey, I’m Alex Spencer and I love building beautiful websites
+            </h2>
+            <span class="hero_text_span">
+              <img
+                class="hero_text_span_img"
+                src="./images/strelka.svg"
+                alt="strelka"
+              />
+              <a class="hero_text_span_link" href="#">About me</a>
+            </span>
+          </div>
+        </section>
+
+        <section class="about">
+          <picture class="about_picture">
+            <source
+              class="about_picture_image_mobile"
+              media="(max-width: 767px)"
+              srcset="./images/jentelmen_tablet.jpg"
+            />
+            <source
+              media="(max-width:1024px)"
+              srcset="./images/jentelmen_mobile.jpg"
+            />
+            <img
+              src="./images/jentelmen.jpg"
+              alt="Flowers"
+              style="width: auto"
+            />
+          </picture>
+
+          <div class="about_text">
+            <hr class="about_text_hr" />
+            <h3 class="about_text_h3">About Me</h3>
+            <p class="about_text_p">
+              I’m a junior front-end developer looking for a new role in an
+              exciting company. I focus on writing accessible HTML, using modern
+              CSS practices and writing clean JavaScript. When writing
+              JavaScript code, I mostly use React, but I can adapt to whatever
+              tools are required. I’m based in London, UK, but I’m happy working
+              remotely and have experience in remote teams. When I’m not coding,
+              you’ll find me outdoors. I love being out in nature whether that’s
+              going for a walk, run or cycling. I’d love you to check out my
+              work.
+            </p>
+            <a class="about_text_link" href="">GO TO PORTFOLIO</a>
+          </div>
+        </section>
+        <section class="interes">
+          <h3 class="interes_h3">Interested in doing a project together?</h3>
+          <hr class="interes_hr" />
+          <a class="interes_link" href="#">CONTACT ME</a>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_wrapper">
+          <img class="footer_wrapper_img" src="./images/logo.svg" alt="logo" />
+          <ul class="footer_ul">
+            <li class="footer_ul_li">
+              <a class="footer_ul_li_link" href="#">HOME</a>
+            </li>
+            <li class="footer_ul_li">
+              <a class="footer_ul_li_link" href="#">PORTFOLIO</a>
+            </li>
+            <li class="footer_ul_li">
+              <a class="footer_ul_li_link" href="#">CONTACT ME</a>
+            </li>
+          </ul>
+          <div class="wrapper_icon">
+            <a target="_blank" href="https://github.com/">
+              <img
+                class="wrapper_icon_img"
+                src="./images/mushuk.svg"
+                alt="git hub"
+              />
+            </a>
+            <a target="_blank" href="https://twitter.com/"
+              ><img class="wrapper_icon_img" src="./images/twtr.svg" alt="twtr"
+            /></a>
+            <a target="_blank" href="https://ru.linkedin.com/"
+              ><img
+                class="wrapper_icon_img"
+                src="./images/linkedin.svg"
+                alt="linkedin"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
